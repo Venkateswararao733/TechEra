@@ -1,0 +1,128 @@
+.container {
+  height: auto;
+  width: 90%;
+  margin: 0px;
+  padding: 10px;
+}
+.description {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lexend Deca';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
+}
+.imgInstContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .imgInstContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.modal-img {
+  width: 50%;
+  height: 100vh;
+  flex-shrink: 0;
+}
+.inst-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://res.cloudinary.com/dcrohjohe/image/upload/v1698924553/IMAGE_3_hmcqso.png');
+  background-size: cover;
+  width: 90%;
+  flex-shrink: 0;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+}
+@media (min-width: 768px) {
+  .inst-container {
+    width: 50%;
+  }
+}
+.des {
+  color: #2e475d;
+  text-align: center;
+  font-family: 'Lexend Deca';
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 148.235% */
+  margin: 0px;
+}
+.inst-heading {
+  color: #bf2b2b;
+  text-align: center;
+  font-family: 'Lexend Deca';
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58.8px; /* 140% */
+  margin: 0px;
+}
+.text {
+  color: #2e475d;
+  font-family: 'Lexend Deca';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 140% */
+  margin: 0px;
+}
+.sub-head {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lexend Deca';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30.8px; /* 140% */
+}
+.time-text {
+  color: #2e475d;
+  text-align: center;
+  font-family: 'Lexend Deca';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px; /* 140% */
+  margin: 0px;
+}
+.span-element {
+  color: #bf2b2b;
+}
+.button {
+  background-color: #bf2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border: 0px;
+  border-radius: 20px;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lexend Deca';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px; /* 140% */
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+.logo {
+  margin: 0px 20px 0px 0px;
+}

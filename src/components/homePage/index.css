@@ -1,0 +1,21 @@
+.page-container {
+  background-image: url('https://res.cloudinary.com/dcrohjohe/image/upload/v1698923339/IMAGE_1_uxizmq.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  overflow: auto;
+  padding: 0px;
+}
+
+.cNames-container {
+  background-image: url('https://res.cloudinary.com/dcrohjohe/image/upload/v1698927157/IMAGE_4_vjummq.png');
+  background-size: cover;
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+}
+.img {
+  width: 100%;
+  margin: 0px;
+}
